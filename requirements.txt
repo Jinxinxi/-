@@ -1,0 +1,20 @@
+# OpenCV
+opencv
+
+# tkinter
+tkinter
+
+# requests
+requests
+
+# hashlib
+hashlib
+
+# moviepy
+moviepy
+
+# paddleocr
+fpaddleocr
+
+# tqdm
+tqdm
