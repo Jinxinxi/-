@@ -28,7 +28,7 @@ PaddleOCR旨在打造一套丰富、领先、且实用的OCR工具库，助力�
 
 ## 程序简介
 
-这个程序主要使用了PaddleOCR的图片文本检测和识别功能。同时借鉴了paddle星河社区<a href='<a href="https://aistudio.baidu.com/projectdetail/1054614">大佬的项目</a><br>
+这个程序主要使用了PaddleOCR的图片文本检测和识别功能。同时借鉴了paddle星河社区<a href="https://aistudio.baidu.com/projectdetail/1054614">大佬的项目</a>。<br>
 通过调用Opencv对视频的切帧能力```read()```将输入的视频进行间隔切帧并逐一返回给控制台，PaddleOCR从控制台收到帧图片后将其保存
 ```imwrite()```成```jpg```图片并读取图片信息检测识别图片内的字幕，将字幕写入文档供百度翻译API进行翻译。<br>
 在调用百度翻译API后将翻译结果写入文档，利用```moviepy```库进行视频合成，将翻译的字幕按特定帧写入到画面底部并结合源视频画面、声
